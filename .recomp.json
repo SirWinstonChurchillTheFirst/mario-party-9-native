@@ -32,5 +32,5 @@
       "url": "https://ko-fi.com/krogger"
     }
   ],
-  "notes": "Plays the intro, the title (hold A and B), the main menu and the Museum. About 60 fps on both machines. All 115 minigame modules are translated; the game's process system runs on host coroutines. Tested on Windows 11 (RTX 3070 Ti) and on a Linux mini PC (Ryzen 3 4350GE, Vega 6) with scripted inputs; nothing here says the game is playable to the end. Built with AI assistance (Claude)."
+  "notes": "Reaches Free Play and plays a minigame at 60 fps. Known problem: the minigame Buddy Bounce stops the game when it starts. Tested on Windows 11 by playing into the first real scene; on the Linux mini PC through the menus. Nothing here says the game is playable to the end. Built with AI assistance (Claude)."
 }
