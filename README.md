@@ -20,7 +20,7 @@ storage, controllers) is provided by the [wii-recomp runtime](https://github.com
 
 Tested with **SSQP01** (Europe (PAL), revision 0).
 
-Reaches Free Play and plays minigames, Buddy Bounce included, at 60 fps, no graphics errors seen. Tested on Windows 11 by playing into the first real scene; on the Linux mini PC through the menus. Nothing here says the game is playable to the end.
+Reaches Free Play and plays minigames, Buddy Bounce included, at 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: the minigame Buddy Bounce through to its results, 59.9 fps, one hitch of 0.1 s). Nothing here says the game is playable to the end.
 
 Only what is written here has been tested. It has not been played to the end. Other regions
 or revisions may work but are untested.
