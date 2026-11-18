@@ -20,7 +20,7 @@ storage, controllers) is provided by the [wii-recomp runtime](https://github.com
 
 Tested with **SSQP01** (Europe (PAL), revision 0).
 
-Reaches Free Play and plays minigames, Buddy Bounce included, at 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: the minigame Buddy Bounce through to its results, 59.9 fps, one hitch of 0.1 s). Nothing here says the game is playable to the end.
+Reaches Free Play and plays minigames, Buddy Bounce included, at 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: the minigame Buddy Bounce through to its results, 59.9 fps, one hitch of 0.1 s). With the current runtime version the game was started and run through its menus again on the mini PC (no stops, frame times as before); the scene named here was played with the version before. Nothing here says the game is playable to the end.
 
 Only what is written here has been tested. It has not been played to the end. Other regions
 or revisions may work but are untested.
@@ -36,7 +36,7 @@ The same 90-second run on both machines: started from the disc, the same scripte
 | Machine | Average fps | 1 % low fps | Busy | Frames over 20 ms |
 |---|---|---|---|---|
 | High budget: Windows 11, Intel Core i7-13700KF, NVIDIA GeForce RTX 3070 Ti, 32 GB | 59.9 | 47.8 | 16.3 % | 0.11 % |
-| Low budget: Batocera Linux mini PC (HP), AMD Ryzen 3 PRO 4350GE with Radeon Vega 6 graphics, 8 GB | 59.9 | 47.7 | 25.7 % | 0.11 % |
+| Low budget: Batocera Linux mini PC (HP), AMD Ryzen 3 PRO 4350GE with Radeon Vega 6 graphics, 8 GB | 59.8 | 46.3 | 24.1 % | 0.11 % |
 
 ## Build and play
 
@@ -74,7 +74,7 @@ Sideways remote: arrow keys, 1 and 2; A is Enter, B is Backspace.
 ## How it's made
 
 - Runtime: [https://github.com/SirWinstonChurchillTheFirst/wii-recomp](https://github.com/SirWinstonChurchillTheFirst/wii-recomp) (branch `windows-port`, tested at
-  `25ee096b1378`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
+  `3367ea407700`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
   Windows support and the fixes this game needed. GPL-3.0-or-later.
 - Hardware behaviour follows [Dolphin](https://dolphin-emu.org) where noted in the runtime's
   CREDITS.md.
